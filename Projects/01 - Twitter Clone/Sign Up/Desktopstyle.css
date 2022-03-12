@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+    body{
+        background-color: #8A8A8A;
+    }
+
+    header{            
+        background-color: #7C0000;
+    }
+    #ProfilePic {
+        width: 505px;  
+        height: 705px;
+        margin-top: 10%;
+        margin-left: 33%; 
+        margin-bottom: 10%;
+        border: 12px solid black;
+    }
+
+    #IronCore-Sign-Up {
+        margin-top: 10%;
+        margin-left: 32%; 
+        margin-bottom: 10%;
+        margin-right: 42%;
+        font-size: 36px;
+    
+    }
+    
+    #IronCore-Sign-Up > form {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        padding: 5%;
+        
+    }
+
+    #Sign-Up{
+        background-color:#EAA800;
+        font-size: 23px;
+        font-weight: bold;        
+    }
+
+    

@@ -1,0 +1,25 @@
+
+h1 {
+  margin-bottom: 0;
+}
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #e8e8e8;
+  color: #3d3d3d;
+  border-radius: 15px;
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+nav a:hover {
+  color: rgb(255, 197, 197);
+  background-color: #5c4242;
+}
+nav a.active {
+  background-color: black;
+}

@@ -1,0 +1,154 @@
+#Header {
+    background-color: rgb(128, 0, 0);
+    color: cornsilk;
+    margin: 5%;
+    border: black solid 5px;
+    width: 82vw;
+    padding: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150%;
+}
+
+#Guest {
+    background-color: rgb(128, 0, 0);
+    color: cornsilk;
+    margin: 5%;
+    border: black solid 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 82vw;
+    padding: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 125%;
+}
+
+#Guest > form {
+    background-color: rgb(128, 0, 0);
+    color: cornsilk;
+    margin: 1%;
+    border: black solid 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+       
+}
+
+#SubmitGuest {
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    width: 10%;
+    height: 10%;
+}
+
+#guest-list-section {
+    background-color: rgb(128, 0, 0);
+    color: cornsilk;
+    margin: 5%;
+    border: black solid 5px;
+    width: 82vw;
+    padding: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 125%;    
+}
+
+#First-Name{
+    background-color: cornsilk;
+    
+}
+
+#Middle-Name{
+    background-color: cornsilk;
+}
+
+#Last-Name{
+    background-color: cornsilk;
+}
+
+#Email{
+    background-color: cornsilk;
+}
+
+#Date-of-Birth{
+    background-color: cornsilk;
+}
+
+#Street-Address{
+    background-color: cornsilk;
+}
+
+#City{
+    background-color: cornsilk;
+}
+
+#State{
+    background-color: cornsilk;
+}
+
+#Zip{
+    background-color: cornsilk;
+}
+
+#Update-Entry-1{
+    background-color: cornsilk;
+}
+
+#Delete-Entry-1{
+    background-color: cornsilk;
+}
+*{ 
+    background: rgb(88, 35, 35);
+}
+
+h1 {
+    background-color: rgb(128, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h2 {
+    background-color: rgb(128, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h3 {
+    background-color: rgb(128, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h4 {
+    background-color: rgb(128, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+form input {
+    width: 50%;
+}
+
+.form-div {
+    background-color: rgb(128, 0, 0);
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5%;
+    width: 75%;
+}
+
+label {
+    background-color: rgb(128, 0, 0);
+    margin: 0 5% 0 0;
+}
+
+
+

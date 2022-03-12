@@ -1,0 +1,28 @@
+#dom-manipulation {
+    margin: 5%;
+    border: black solid 1px;
+    width: 90vw;
+}
+
+#dom-manipulation > form {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 5%;
+}
+
+form > h4 {
+    margin: 2% auto;
+}
+
+form input {
+    width: 90%;
+}
+
+.form-div {
+    display: flex;
+    margin: 2%;
+}
+label {
+    margin: 0 5% 0 0;
+}

@@ -1,0 +1,72 @@
+* {
+    background-color: cornsilk;
+    color:#353535 
+}
+
+h1 {
+    border: 5px solid brown;
+}
+
+h2 {
+    border: 5px solid blue;
+}
+
+h3 {
+    border: 5px solid blue;
+}
+
+p {
+    border: 5px solid red;
+}
+
+nav {
+    border: 5px solid green;
+}
+.main-section {
+    border: 2px solid red;
+    padding: 10px 20px 30px 40px;    
+}
+
+#welcomeName {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#welcomeName:hover {
+    background-color: teal;
+    color: red;
+}
+
+p:nth-child(3n+0) {
+    background: violet;
+}
+
+div p {
+    background-color: crimson;
+}
+
+div > p {
+    background-color: tomato;
+}
+
+div + p {
+    background-color: turquoise;
+}
+
+div.sticky {
+    position: -webkit-sticky; /*Chrome*/
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid greenyellow;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    display: flex;
+    flex-direction: space-between;
+}

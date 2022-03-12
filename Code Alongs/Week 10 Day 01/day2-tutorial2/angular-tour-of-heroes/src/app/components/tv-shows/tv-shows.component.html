@@ -1,0 +1,78 @@
+<h2>TV Shows</h2>
+
+<table>
+    <tr>
+        <!-- title: string;
+          // genre: string;
+          // runtime: number;
+          // countryOfOrigin: string;
+          // numberOfSeasons: number;
+          // numberOfEpisodes: number;
+          // animated: boolean;
+          // ongoing: boolean; -->
+        <th>Title</th>
+        <th>Genre</th>
+        <th>Country of Origin</th>
+        <th># of Seasons</th>
+        <th># of Episodes</th>
+        <th>Runtime</th>
+        <th>Animated?</th>
+        <th>Ongoing?</th>
+    </tr>
+    <tr *ngFor="let show of tvShows">
+        <td>{{show.title}}</td>
+        <td>{{show.genre}}</td>
+        <td>{{show.countryOfOrigin}}</td>
+        <td>{{show.numberOfSeasons}}</td>
+        <td>{{show.numberOfEpisodes}}</td>
+        <td>{{show.runtime}}</td>
+        <td>{{show.animated}}</td>
+        <td>{{show.ongoing}}</td>
+    </tr>
+</table>
+
+<form #tvShow="ngForm" (ngSubmit)="onClickSubmit(tvShow.value)">
+    <h4>Add New TV Show</h4>
+    
+    <div class="input-category">
+        <label for="tvShowTitle">TV Show Title: </label>
+        <input type="text" name="tvShowTitle" placeholder="TV Show Title" ngModel>
+    </div>
+        
+    <div class="input-category">
+        <label for="tvShowGenre">Genre: </label>
+        <input type="text" name="tvShowGenre" placeholder="Genre" ngModel>
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowCountryOfOrigin">Country of Origin: </label>
+        <input type="text" name="tvShowCountryOfOrigin" placeholder="Country of Origin" ngModel>
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowNumberOfSeasons">Number of Seasons: </label>
+        <input type="number" name="tvShowNumberOfSeasons" placeholder="Number of Seasons" ngModel>
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowNumberOfEpisodes">Number of Episodes: </label>
+        <input type="number" name="tvShowNumberOfEpisodes" placeholder="Number of Episodes" ngModel>
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowRuntime">Runtime: </label>
+        <input type="number" name="tvShowRuntime" placeholder="Runtime" ngModel>
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowAnimated">Animated: </label>
+        <input type="checkbox" name="tvShowAnimated"  ngModel>
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowOngoing">Ongoing: </label>
+        <input type="checkbox" name="tvShowOngoing"  ngModel>
+    </div>
+
+    <input type="submit" value="Submit New TV Show">
+</form>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@media screen and (max-width: 720px) {
+    body{
+        width: 289px;
+        height: 635px;
+        border: 3px solid #000;
+        background-color: #8A8A8A;
+    }
+
+    header{
+        position: "absolute";
+        width: 289px;
+        height: 123px;
+        background-color: #7C0000;
+    }
+    #BasicInfo {
+        margin-top: 20%;
+        margin-left: 20%;
+
+    }
+    #Activity {
+        margin-top: 2%;
+        margin-left: 35%;
+    }
+    #ChartPic {
+        width: 270px;
+        height: 175px;        
+        margin-top: 10%;
+        margin-left: -60%;
+    }
+
+    #ProfilePic{
+        width: 135px;  
+        height: 155px;
+        margin-top: 5%;
+        margin-left: 25%; 
+        border: 3px solid black;
+    }
+
+    #ProfMenu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: "absolute";
+        width: 35px;
+        margin-top: 5%;
+        font-family: "Roboto";
+        font-style: "normal";
+        font-weight: "normal";
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    h1{
+        height: 20px;
+        font-family: "Roboto";
+        font-style: "normal";
+        font-weight: "bold";
+        font-size: 24px;
+        line-height: 42px;
+        color: #000;
+    }
+   
+
+    h3{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+}

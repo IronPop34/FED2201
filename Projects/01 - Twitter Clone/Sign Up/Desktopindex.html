@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+
+    <link rel="stylesheet" type="text/css" href="Desktopstyle.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+       
+</head>
+    
+    <header>
+                    
+        <img id="ProfilePic" src="resources/IronMan.png">
+      
+    </header>
+
+<body>
+    
+    <section id="IronCore-Sign-Up">
+        
+        <h1>IronCore Sign Up</h1>
+        <hr>
+
+        <form name="IronCore-form">
+
+            <h2>Basic Information</h2>
+
+            <div class="form-div">
+                <label for="First-Name">First Name:</label>
+                <input type="text" name="First-Name" id="member-First-Name">
+            </div>
+            <div class="form-div">
+                <label for="Last-Name">Last Name:</label>
+                <input type="text" name="Last-Name" id="member-Last-Name">
+            </div>
+            <div class="form-div">
+                <label for="Username">Username:</label>
+                <input type="text" name="Username" id="member-Username">
+            </div>
+            <div class="form-div">
+                <label for="Password">Password:</label>
+                <input type="text" name="Password" id="member-Password">
+            </div>
+            <div class="form-div">
+                <label for="Email">Email:</label>
+                <input type="text" name="Email" id="member-Email">
+            </div>
+            <div class="form-div">
+                <label for="Contact-Number">Contact Number:</label>
+                <input type="text" name="Contact-Number" id="member-Contact-Number">
+            </div>
+
+            <input type="Submit" value="Submit" id="Sign-Up">
+        </form>
+
+        <div id="Member-list-section">
+            
+            <h3>Member's of the IronCore</h3>
+
+            <ol id="listOfMembersOfTheIronCore"></ol>
+            
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+
+    <script src="jQuery.js"></script>
+
+    <script src="jQuery-AJAX.js"></script>
+
+</body>
+
+</html>

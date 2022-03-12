@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@media screen and (max-width: 720px) {
+    #BasicInfo {
+        float: left;
+        margin-top: 10%;
+        margin-left: 37%;
+    }
+
+    #Log-In{
+        font-weight: bold;
+    }
+
+    #ProfilePic{
+        width: 105px;  
+        height: 195px;
+        margin-top: 10%;
+        margin-left: 25%;
+        margin-bottom: 10%; 
+        margin-right: 32%;
+        border: 7px solid black;
+    }
+
+    form {
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-bottom: 10%; 
+        margin-right: 32%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        background-color: #EAA800;
+        font-style: bold;
+        font-weight: bold;
+        font-size: 12px;
+        
+    }
+    
+    body{
+        width: 255px;
+        height: 467px;
+        border: 3px solid #000;
+        background-color: #8A8A8A;
+    }
+
+    header{
+        background-color: #7C0000;
+    }

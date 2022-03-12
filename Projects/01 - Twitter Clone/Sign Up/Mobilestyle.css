@@ -1,0 +1,39 @@
+body{
+    background-color: #8A8A8A;
+}
+
+header{            
+    background-color: #7C0000;
+}
+#ProfilePic {
+    width: 175px;  
+    height: 250px;
+    margin-top: 10%;
+    margin-left: 25%; 
+    margin-right: 20%;
+    margin-bottom: 10%;
+    border: 4px solid black;
+}
+
+#IronCore-Sign-Up {
+    margin-top: 10%;
+    margin-left: 25%; 
+    margin-bottom: 10%;
+    margin-right: 25%;
+    font-size: 14px;
+
+}
+
+#IronCore-Sign-Up > form {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 5%;
+    
+}
+
+#Sign-Up{
+    background-color:#EAA800;
+    font-size: 14px;
+    font-weight: bold;          
+}

@@ -1,0 +1,28 @@
+{
+    "members": [
+        {
+            "First Name": "Samuel",
+            "Last Name": "Sovago-Royal",
+            "Username" : "@IronPops34",
+            "Password" : "@IronPops34",
+            "Email": "SSovagoRoyal@protonmail.com",
+            "Contact Number": "423 280 8254"
+        },
+        {
+            "First Name": "John",
+            "Last Name": "Henry",
+            "Username": "DaHammer94!",
+            "Password": "DaHammer94!",
+            "Email": "JH@gmail.com",
+            "Contact Number": "404 528 4469"
+        },
+        {
+            "First Name": "Gabriel",
+            "Last Name": "Smith",
+            "Username": "#PDawg14",
+            "Password": "#PDawg14",
+            "Email": "GSmith@yahoo.com",
+            "Contact Number": "607 555 8619"
+        }
+    ]
+}

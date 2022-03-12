@@ -1,0 +1,59 @@
+#CodingChallenge01{
+    width: 1250px;  
+    height: 805px;
+    margin-left: 20%;
+    border: 10px solid black;
+}
+
+#CodingChallenge02{
+    width: 1250px;  
+    height: 805px;
+    margin-left: 20%;
+    border: 10px solid black;
+}
+
+#CodingChallenge03{
+    width: 1250px;  
+    height: 805px;
+    margin-left: 20%;
+    border: 10px solid black;
+}
+
+h1 {
+    height: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 12px;
+    margin-left: 36%;
+    color: #000;
+}
+
+h2 {
+    height: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 12px;
+    margin-left: 39%;
+    color: #000;
+}
+
+h3 {
+    height: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 20%;
+    color: #000;
+}
+
+p {
+    height: 6px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 20%;
+    color: #000;
+}

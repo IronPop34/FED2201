@@ -1,0 +1,22 @@
+*{
+  justify-content: center;
+}
+
+.clear {
+  color: #333;
+  background-color: #eee;
+  margin-bottom: 12px;
+  padding: 1rem;
+  border-radius: 15px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 370px; 
+ 
+}
+.clear:hover {
+  color: rgb(0, 0, 0);
+  background-color: #5c4242;
+}
+

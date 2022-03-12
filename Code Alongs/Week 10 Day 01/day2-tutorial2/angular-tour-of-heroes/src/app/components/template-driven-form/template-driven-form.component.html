@@ -1,0 +1,12 @@
+<h2>Template-Driven Form</h2>
+
+<form #newHero="ngForm" (ngSubmit)="onClickSubmit(newHero.value)">
+    
+    <label for="newHeroName">New Hero Name: </label>
+    <input type="text" name="newHeroName" placeholder="New Hero Name" ngModel>
+
+    <label for="newHeroPower">New Hero Power: </label>
+    <input type="text" name="newHeroPower" placeholder="New Hero Name" ngModel>
+
+    <input type="submit" value="Submit New Hero">
+</form>

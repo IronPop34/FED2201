@@ -1,0 +1,20 @@
+{
+    "cars": [
+        {
+            "make": "Nissan",
+            "model": "Altima",
+            "year": 2016
+        },
+        {
+            "make": "Ford",
+            "model": "Bronco",
+            "year": 2022
+        },
+        {
+            "make": "Buick",
+            "model": "LaCrosse",
+            "year": 2005
+        }
+    ]
+
+}

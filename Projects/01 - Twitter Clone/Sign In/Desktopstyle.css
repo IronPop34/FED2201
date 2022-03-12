@@ -1,0 +1,53 @@
+    #BasicInfo {
+        float: left;
+        margin-top: 10%;
+        margin-left: 37%;
+    }
+
+    #Log-In{
+        font-weight: bold;
+    }
+
+    #ProfilePic{
+        width: 505px;  
+        height: 755px;
+        margin-top: 10%;
+        margin-left: 32%;
+        margin-bottom: 10%; 
+        margin-right: 32%;
+        border: 7px solid black;
+    }
+
+    form {
+        margin-top: 20%;
+        margin-left: 39%;
+        margin-right: 39%;
+        margin-bottom: 20%;
+        font-style: "normal";
+        font-weight: "normal";
+        font-size: 36px;
+        line-height: 28px;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+    button {
+        background-color: #EAA800;
+        font-style: bold;
+        font-weight: bold;
+        font-size: 36px;
+        
+    }
+    
+    body{
+        border: 3px solid #000;
+        background-color: #8A8A8A;
+    }
+
+    header{
+        background-color: #7C0000;
+    }
+
+    

@@ -1,0 +1,30 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 20px 0px 800px; 
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 20px 0px 850px;
+}
+
+#Challenge01 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid;
+    padding: 10px 850px 10px 900px;
+}
+
+#Challenge02 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid;
+    padding: 10px 850px 10px 900px;
+}
+    
+
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;    
+}
