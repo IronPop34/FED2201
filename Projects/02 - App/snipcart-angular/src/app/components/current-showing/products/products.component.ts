@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PRODUCT } from '../current-showingAssets/currentExhibition';
 
 @Component({
   selector: 'app-products',
@@ -6,10 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./products.component.scss']
 })
 export class ProductsComponent implements OnInit {
-
-  constructor() { }
-
   ngOnInit(): void {
+    throw new Error('Method not implemented.');
   }
+  products = PRODUCT;
 
 }
