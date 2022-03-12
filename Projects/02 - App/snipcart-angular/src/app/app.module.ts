@@ -12,6 +12,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms'  
 import { ReactiveFormsModule} from '@angular/forms';
+import { CurrentShowingHomepageComponent } from './components/current-showing/current-showing-homepage/current-showing-homepage.component';
+import { ProductsComponent } from './components/current-showing/products/products.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ReactiveFormsModule} from '@angular/forms';
     AboutComponent,
     CurrentShowingComponent,
     PortfolioComponent,
-    ContactComponent,          
+    ContactComponent,
+    CurrentShowingHomepageComponent,
+    ProductsComponent,          
   ],
 
   imports: [

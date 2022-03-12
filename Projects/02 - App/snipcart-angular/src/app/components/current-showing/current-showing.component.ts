@@ -5,8 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './current-showing.component.html',
   styleUrls: ['./current-showing.component.scss']
 })
-export class CurrentShowingComponent implements OnInit {
-
+export class CurrentShowingComponent {
+  
+  title = 'The Carousel'
   constructor() { }
 
   ngOnInit(): void {
