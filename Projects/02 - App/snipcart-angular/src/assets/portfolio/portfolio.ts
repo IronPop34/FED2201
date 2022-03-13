@@ -1,7 +1,5 @@
-import { Product } from '../core/product';
-import { Size } from '../core/size';
 
-export const PRODUCTS: Product[] = [
+export const PRODUCTS: Products[] = [
   {
     id: 1,
     name: 'Cosmic Flow',

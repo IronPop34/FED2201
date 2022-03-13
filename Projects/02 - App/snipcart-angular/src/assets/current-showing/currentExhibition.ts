@@ -1,8 +1,4 @@
-import { Product } from '../core/product';
-import { Price } from '../core/price';
-import { Size } from '../core/size';
-
-export const PRODUCT: Product[] = [
+export const currentShowingPRODUCT: CurrentShowingProduct[] = [
   {
     id: 1,
     name: 'The Carousel in Black & White #15',
