@@ -1,4 +1,8 @@
-export const currentShowingPRODUCT: CurrentShowingProduct[] = [
+import { Product } from '../../app/components/current-showing/core/product';
+import { Size } from '../../app/components/current-showing/core/size';
+import { Price } from '../../app/components/current-showing/core/price';
+
+export const PRODUCT: Product[] = [
   {
     id: 1,
     name: 'The Carousel in Black & White #15',

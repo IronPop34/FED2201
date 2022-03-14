@@ -1,0 +1,127 @@
+<h2>Pipes Example</h2>
+
+<!-- Currency Pipe -->
+<div class="pipe-example">
+  <h4> Currency Pipe</h4>
+
+  <table>
+    <tr>
+      <th>USD Amount</th>
+      <th>Converted (Piped) Currency </th>
+    </tr>
+    <tr>
+      <td>0.99</td>
+      <td>EUR (with Code) - 
+        <span>
+          {{0.99 | currency: 'EUR': 'code'}}
+        </span>
+    </td>
+    </tr>
+    <tr>
+      <td>0.99</td>
+      <td>CAD(with Full Symbol) - 
+        <span>
+          {{0.99 | currency: 'CAD': 'symbol'}}
+        </span>
+    </td>
+    </tr>
+    <tr>
+      <td>0.99</td>
+      <td>JPY (with Narrow/shortened Symbol) - 
+        <span>
+          {{.99 | currency: 'JPY': 'symbol-narrow'}}
+        </span>
+    </td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>USD to EUR (using a Custom Pipe) - 
+        <span>
+          {{100 | currencyConversion}}
+        </span>
+    </td>
+    </tr>
+  </table>
+</div>
+
+<!-- Date Pipe -->
+<div class="pipe-example">
+  <h4> Date Pipe (current Date Value : {{dateValue}})</h4>
+
+  <table>
+    <tr>
+      <th>Type of Conversion</th>
+      <th>Converted Date </th>
+    </tr>
+    <tr>
+      <td>Short Time</td>
+      <td>
+        <span>
+          {{dateValue | date: 'shortTime'}}
+        </span>
+    </td>
+    </tr>
+    <tr>
+      <td>Full Date</td>
+      <td>
+        <span>
+          {{dateValue | date: 'fullDate'}}
+        </span>
+    </td>
+    </tr>
+    <tr>
+      <td>Formatted (MM/dd/yyyy)</td>
+      <td>
+        <span>
+          {{dateValue | date: 'MM/dd/yyyy'}}
+        </span>
+    </td>
+    </tr>
+    
+  </table>
+</div>
+
+<!-- Decimal and Percentages Pipes -->
+<div class="pipe-example">
+  <h4> Decimals and Percentages Pipes (current value : Pi({{piValue}}...), Percentage ({{percentValueOne}} and  {{percentValueTwo}}))</h4>
+
+  <table>
+    <tr>
+      <th>Type of Conversion</th>
+      <th>Converted Date </th>
+    </tr>
+    <tr>
+      <td>Decimal: Whole Number</td>
+      <td>
+        <span>
+          {{piValue | number: '5.0-0'}}
+        </span>
+    </td>
+    </tr>
+    <tr>
+      <td>Decimal: decimal Places (to the 10th place)</td>
+      <td>
+        <span>
+          {{piValue | number: '1.10-20'}}
+        </span>
+    </td>
+    </tr>
+    <tr>
+      <td>Percentages: Simple percentage</td>
+      <td>{{percentValueOne}} = 
+        <span>
+          {{percentValueOne | percent}}
+        </span>
+    </td>
+    </tr>
+    <tr>
+      <td>Percentages: including integer/decimal Places</td>
+      <td>{{percentValueTwo}} = 
+        <span>
+          {{percentValueTwo | percent: '5.1-6'}}
+        </span>
+    </td>
+    </tr>
+    
+  </table>
+</div>
