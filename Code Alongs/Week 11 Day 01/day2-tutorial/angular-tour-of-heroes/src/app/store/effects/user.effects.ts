@@ -16,8 +16,8 @@ import {
 // imports for services,http-models, and user.selector required
 import { UserService } from '../../services/user.service';
 import { IUserHttp } from '../../http-models/user-http.interface';
-import { SelectedUserList } from '../selectors/user.selector'
-import { IUser } from 'src/app/data-info/interfaces/iuser'; //
+import { selectUserList } from '../selectors/user.selector'
+import { IUser } from '../../data-info/interfaces/user'; //
 
 @Injectable ()
 export class UserEffects { 

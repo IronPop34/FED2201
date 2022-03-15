@@ -5,7 +5,7 @@ import { IAppState } from "../state/app.state";
 import { configReducers } from "./config.reducers";
 import { userReducers } from "./user.reducers";
 
-export const appReucers: ActionReducerMap<IAppState, any> = {
+export const appReducers: ActionReducerMap<IAppState, any> = {
     router: routerReducer,
     users: userReducers,
     config: configReducers

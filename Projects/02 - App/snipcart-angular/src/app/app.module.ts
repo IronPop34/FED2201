@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule  } from '@angular/common/http';
+import { MatCommonModule } from '@angular/material/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { ProductsComponent } from './components/current-showing/products/product
 import { ProductComponent } from './components/current-showing/product/product.component';
 import { ProductPageComponent } from './components/current-showing/product-page/product-page.component';
 import { NavbarComponent } from './components/current-showing/navbar/navbar.component';
+import { CurrentShowingHomepageComponent } from './components/current-showing/homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { NavbarComponent } from './components/current-showing/navbar/navbar.comp
     ProductsComponent,
     ProductComponent,
     ProductPageComponent,
-    NavbarComponent,       
+    NavbarComponent,
+    CurrentShowingComponent       
   ],
 
   imports: [
@@ -37,7 +40,8 @@ import { NavbarComponent } from './components/current-showing/navbar/navbar.comp
     BrowserAnimationsModule,
     HttpClientModule,
     ReactiveFormsModule,
-    FormsModule,         
+    FormsModule,
+    MatCommonModule         
   ],
 
   providers: [],
