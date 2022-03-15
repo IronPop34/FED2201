@@ -23,7 +23,7 @@ export class TvShowService {
       (response) => {
         console.log(response);
       },
-      (error) => {
+      (error: { message: any; }) => {
         console.log(error.message);
       }
     );
@@ -33,10 +33,10 @@ export class TvShowService {
   public updateTvShow(tvShowID: any, newTvShowData: TvShow): void {
     console.log(`TV show is trying to be updated`)
     this.http.patch(`${this.url}/${tvShowID}${this.jsonExt}`, JSON.stringify(newTvShowData)).subscribe(
-      (response) => {
+      (response: any) => {
         console.log(response);
       },
-      (error) => {
+      (error: { message: any; }) => {
         console.log(error.message);
       }
     )
@@ -45,7 +45,7 @@ export class TvShowService {
   // DELETE data from our DB
   public deleteTvShow(tvShowID: string): void {
     console.log(`TV show is trying to be deleted`)
-    this.http.delete(`${this.url}/${tvShowID}${this.jsonExt}`).subscribe(data => console.log(`${data} deleted`))
+    this.http.delete(`${this.url}/${tvShowID}${this.jsonExt}`).subscribe((data: any) => console.log(`${data} deleted`))
     
   }
 }
