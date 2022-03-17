@@ -6,7 +6,7 @@ import { Product } from '../core/product';
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.scss']
 })
-export class ProductComponent implements OnInit {
+export class CurrentShowingProductComponent implements OnInit {
   @Input() product: Product | undefined;
   imageUrl: string = "";
 

@@ -6,6 +6,5 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./homepage.component.scss']
 })
 export class CurrentShowingHomepageComponent {
-  title = 'Infinite summer ice cream store';
-  subtitle = 'Which one do you want?';
+  title = 'The Carousel';
 }

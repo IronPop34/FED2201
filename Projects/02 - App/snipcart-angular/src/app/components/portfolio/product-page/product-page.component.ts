@@ -10,7 +10,7 @@ import { ProductService } from '../product.service';
   templateUrl: './product-page.component.html',
   styleUrls: ['./product-page.component.scss'],
 })
-export class ProductPageComponent implements OnInit {
+export class PortfolioProductPageComponent implements OnInit {
   imageUrl: string = '';
   selectedAttributes: SelectedProductAttributes = {
     size: undefined,

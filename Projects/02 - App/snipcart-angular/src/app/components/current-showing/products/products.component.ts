@@ -9,7 +9,7 @@ import { ProductService } from '../product.service';
   styleUrls: ['./products.component.scss']
 })
 
-export class ProductsComponent implements OnInit {
+export class CurrentShowingProductsComponent implements OnInit {
   products: Product[] = [];
 
   constructor(private productService: ProductService) {}

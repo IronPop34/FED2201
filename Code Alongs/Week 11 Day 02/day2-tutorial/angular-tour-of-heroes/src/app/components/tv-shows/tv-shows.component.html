@@ -1,0 +1,89 @@
+<h2>TV Shows</h2>
+
+<table>
+    <tr>
+        <!-- title: string;
+          // genre: string;
+          // runtime: number;
+          // countryOfOrigin: string;
+          // numberOfSeasons: number;
+          // numberOfEpisodes: number;
+          // animated: boolean;
+          // ongoing: boolean; -->
+        <th>Title</th>
+        <th>Genre</th>
+        <th>Country of Origin</th>
+        <th># of Seasons</th>
+        <th># of Episodes</th>
+        <th>Runtime</th>
+        <th>Animated?</th>
+        <th>Ongoing?</th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr  id="{{show.id}}" *ngFor="let show of tvShows">
+        <td>{{show.title}}</td>
+        <td>{{show.genre}}</td>
+        <td>{{show.countryOfOrigin}}</td>
+        <td>{{show.numberOfSeasons}}</td>
+        <td>{{show.numberOfEpisodes}}</td>
+        <td>{{show.runtime}}</td>
+        <td>{{show.animated}}</td>
+        <td>{{show.ongoing}}</td>
+        <td>
+            <button class="btn bt-secondary" (click)="onEditButtonClicked(show)">Edit</button>
+        </td>
+        <td>
+            <button class="btn btn-danger" >Delete</button>
+        </td>
+    </tr>
+</table>
+
+<form #tvShow="ngForm" [formGroup]="tvShowForm" (ngSubmit)="onClickSubmit(tvShow.value)">
+    <h4 *ngIf="!isUpdating" >Add New TV Show</h4>
+    <h4 *ngIf="isUpdating" >Update TV Show</h4>
+    
+    <div class="input-category">
+        <label for="tvShowTitle">TV Show Title: </label>
+        <input type="text" formControlName="tvShowTitle" name="tvShowTitle" placeholder="TV Show Title" >
+    </div>
+        
+    <div class="input-category">
+        <label for="tvShowGenre">Genre: </label>
+        <input type="text" formControlName="tvShowGenre" name="tvShowGenre" placeholder="Genre" >
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowCountryOfOrigin">Country of Origin: </label>
+        <input type="text" formControlName="tvShowCountryOfOrigin" name="tvShowCountryOfOrigin" placeholder="Country of Origin" >
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowNumberOfSeasons">Number of Seasons: </label>
+        <input type="number" formControlName="tvShowNumberOfSeasons" name="tvShowNumberOfSeasons" placeholder="Number of Seasons" >
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowNumberOfEpisodes">Number of Episodes: </label>
+        <input type="number" formControlName="tvShowNumberOfEpisodes" name="tvShowNumberOfEpisodes" placeholder="Number of Episodes" >
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowRuntime">Runtime: </label>
+        <input type="number" formControlName="tvShowRuntime" name="tvShowRuntime" placeholder="Runtime" >
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowAnimated">Animated: </label>
+        <input type="checkbox" formControlName="tvShowAnimated" name="tvShowAnimated" value="1" >
+    </div>
+    
+    <div class="input-category">
+        <label for="tvShowOngoing">Ongoing: </label>
+        <input type="checkbox" formControlName="tvShowOngoing" name="tvShowOngoing" value= "1"  >
+    </div>
+
+    <input type="submit" *ngIf="!isUpdating" value="Submit New TV Show">
+    <input type="submit" *ngIf="isUpdating" value="Update TV Show">
+    <button *ngIf="isUpdating" (click)="cancelUpdate()">Cancel Update</button>
+</form>
