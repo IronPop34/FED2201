@@ -8,7 +8,9 @@ What is JSX?
 	
 Explain the different types of components.  
 	
-	Class Components are JavaScript classes that manage state and extends the interface, Functional Components are JavaScript functions that return JSX and holds code that will render in JSX elements, Pure Components don't re-render every time a change is made and only render in set conditions. 
+	Class Components are JavaScript classes that manage state and extends the interface.
+	Functional Components are JavaScript functions that return JSX and holds code that will render in JSX elements.
+	Pure Components don't re-render every time a change is made and only render in set conditions. 
 	
 What are higher order components?  
 	
