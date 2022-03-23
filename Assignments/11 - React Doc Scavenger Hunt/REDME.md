@@ -4,7 +4,7 @@ What Is React?
 	
 What is JSX?  
 	
-	JavaScript and XML is a markup language that extends JavaScript and is used for writing components.
+	JSX (JavaScript and XML) is a markup language that extends JavaScript and is used for writing components.
 	
 Explain the different types of components.  
 	
@@ -38,4 +38,4 @@ What are error boundaries?
 	
 What are Keys?
 
-    A Key is used to identify uniquely to an item, especially in the case of dynamic react component, it identifies dynamic components and it can be used to identify the change in an item like update, delete, etc.
+    A Key is used to uniquely identify an item, especially in the case of dynamic react component, it identifies dynamic components and it can be used to identify the change in an item like update, delete, etc.
