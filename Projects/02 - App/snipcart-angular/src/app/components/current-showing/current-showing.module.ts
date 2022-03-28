@@ -14,6 +14,7 @@ import { CurrentShowingProductsComponent } from './products/products.component';
 import { CurrentShowingProductComponent } from './product/product.component';
 import { CurrentShowingProductPageComponent } from './product-page/product-page.component';
 import { CurrentShowingNavbarComponent } from './navbar/navbar.component';
+import { HomepageComponent } from '../homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CurrentShowingNavbarComponent } from './navbar/navbar.component';
     CurrentShowingProductsComponent,
     CurrentShowingProductComponent,
     CurrentShowingProductPageComponent,
-    CurrentShowingNavbarComponent,    
+    CurrentShowingNavbarComponent,
+    HomepageComponent    
   ],
   imports: [
     BrowserModule,

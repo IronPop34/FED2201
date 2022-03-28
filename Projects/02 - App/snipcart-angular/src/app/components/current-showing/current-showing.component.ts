@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-current-showing',
   templateUrl: './current-showing.component.html',
