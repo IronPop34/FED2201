@@ -1,6 +1,6 @@
 What Is React?  
 
-	A library that helps create views for web and mobile applications.	
+	A library that helps create views for web and mobile applications.
 	
 What is JSX?  
 	
