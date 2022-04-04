@@ -1,13 +1,7 @@
-import React from 'react';
+function SideNavItem (props) {
+    return (
+        <h2 className="menus-option">{props.title}</h2>
+    )
+}
 
-const SideNav = (props) => {
-
-return (
-    <div className="sidenav">
-        <a href="#section">Play</a>
-        <a href="#section">Options</a>
-        <a href="#section">Quit</a>        
-    </div>
- );
-};
-export default SideNav;
+export default SideNavItem;
